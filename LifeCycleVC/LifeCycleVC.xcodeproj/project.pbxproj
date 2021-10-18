@@ -17,6 +17,7 @@
 		D6EA69E6271D6FB200705E0E /* LifeCycleVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA69E5271D6FB200705E0E /* LifeCycleVCTests.swift */; };
 		D6EA69F0271D6FB200705E0E /* LifeCycleVCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA69EF271D6FB200705E0E /* LifeCycleVCUITests.swift */; };
 		D6EA69F2271D6FB200705E0E /* LifeCycleVCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA69F1271D6FB200705E0E /* LifeCycleVCUITestsLaunchTests.swift */; };
+		D6EA6A01271D78B700705E0E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA6A00271D78B700705E0E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		D6EA69EB271D6FB200705E0E /* LifeCycleVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeCycleVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6EA69EF271D6FB200705E0E /* LifeCycleVCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleVCUITests.swift; sourceTree = "<group>"; };
 		D6EA69F1271D6FB200705E0E /* LifeCycleVCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleVCUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6EA6A00271D78B700705E0E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				D6EA69CD271D6FB100705E0E /* SceneDelegate.swift */,
 				D6EA69CF271D6FB100705E0E /* ViewController.swift */,
 				D6EA69D1271D6FB100705E0E /* Main.storyboard */,
+				D6EA6A00271D78B700705E0E /* DetailViewController.swift */,
 				D6EA69D7271D6FB200705E0E /* Assets.xcassets */,
 				D6EA69D9271D6FB200705E0E /* LaunchScreen.storyboard */,
 				D6EA69DC271D6FB200705E0E /* Info.plist */,
@@ -263,6 +266,7 @@
 			files = (
 				D6EA69D0271D6FB100705E0E /* ViewController.swift in Sources */,
 				D6EA69D6271D6FB100705E0E /* LifeCycleVC.xcdatamodeld in Sources */,
+				D6EA6A01271D78B700705E0E /* DetailViewController.swift in Sources */,
 				D6EA69CC271D6FB100705E0E /* AppDelegate.swift in Sources */,
 				D6EA69CE271D6FB100705E0E /* SceneDelegate.swift in Sources */,
 			);
