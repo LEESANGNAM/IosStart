@@ -19,6 +19,14 @@ myId
 var myName = "Sangnam"
 var firstName1: String = "Lee"
 (firstName1+myName)
+let softWrappedQuotation = """
+The White Rabbit put on his spectacles.  "Where shall I begin, \
+please your Majesty?" he asked.
+
+"Begin at the beginning," the King said gravely, "and go on \
+till you come to the end; then stop."
+"""
+print
 
 // type - int, double,, float
 var myID:Double = 50
