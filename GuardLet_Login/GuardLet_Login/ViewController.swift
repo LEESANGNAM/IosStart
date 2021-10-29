@@ -35,9 +35,14 @@ class ViewController: UIViewController {
         
         if username == "kim" && password == "1234"{
             alertLabel.text = "Login Succes"
-        }else{
-            alertLabel.text = "Login Faild"
+        }else if username == "kim" && password != "1234"{
+            alertLabel.text = "password error"
+        }else if username != "kim"{
+            alertLabel.text = "not user"
         }
+//        else{
+//            alertLabel.text = "Login Faild"
+//        }
         
     }
 }
