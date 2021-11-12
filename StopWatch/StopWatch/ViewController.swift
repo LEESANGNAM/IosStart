@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     @IBAction func startStop(_ sender: Any) {
         if isStarting{
             // stop
-            elapsed = Date().timeIntervalSince1970 - startTime
+            
             startStopButton.setTitle("Start", for: .normal)
             timer.invalidate() //timer stop
         }else{ // start
@@ -33,13 +33,26 @@ class ViewController: UIViewController {
             timer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(updateCounter), userInfo: nil, repeats: true)
             startStopButton.setTitle("Stop", for: .normal)
         }
+
         isStarting = !isStarting //반전
+        
     }
+    
+    
+    
+    
+    
     @IBAction func reset(_ sender: Any) {
+        elapsed = 0.0
+        resetLable()
+    }
+    
+    func resetLable(){
         labelMinute.text = "00"
-        labelSecond.text = "00"
+        labelMillisecond.text = "00"
         labelSecond.text = "00"
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -47,14 +60,23 @@ class ViewController: UIViewController {
         
         startStopButton.setTitle("Start", for: .normal)
         resetButton.setTitle("Reset", for: .normal)
-        labelMinute.text = "00"
-        labelSecond.text = "00"
-        labelSecond.text = "00"
+        resetLable()
     }
     
     @objc func updateCounter(){
+        elapsed = Date().timeIntervalSince1970 - startTime
+        let date = Date(timeIntervalSince1970: elapsed)
+        let df = DateFormatter()
         
+        df.dateFormat = "SS"
+        labelMillisecond.text = df.string(from: date)
         
+        df.dateFormat = "ss"
+        labelSecond.text = df.string(from: date)
+        
+        df.dateFormat = "mm"
+        labelMinute.text = df.string(from: date)
+   
     }
 
 }
