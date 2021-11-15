@@ -39,8 +39,9 @@ class ViewController: UIViewController{
         
         searchResultTableView.register(UINib(nibName: "WordCell", bundle: nil), forCellReuseIdentifier: "wordCell") //cell 등록
         
-        let serachVC = UISearchController(searchResultsController: nil)
-        self.navigationItem.searchController = serachVC
+        let searchC = UISearchController(searchResultsController: nil)
+        searchC.searchResultsUpdater = self
+        self.navigationItem.searchController = searchC
         self.navigationItem.hidesSearchBarWhenScrolling = false // 서치바 숨기기 ( 기본값. true)
         
     }
@@ -66,13 +67,35 @@ extension ViewController:UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "wordCell") as! WordCell
-        cell.wordLabel.text = wordList[indexPath.row]
+    
         
-//        if isFiltered {
-//            return filteredWordListCell
-//        }else{
-//            return wordListCell
-//        }
+        switch isFiltered{
+        case true:
+            cell.wordLabel.text = filteredWordList[indexPath.row]
+        case false:
+            cell.wordLabel.text = wordList[indexPath.row]
+        }
+        
         return cell
     }
+}
+
+extension ViewController: UISearchResultsUpdating{
+    func updateSearchResults(for searchController: UISearchController) {
+        if let hasText = searchController.searchBar.text?.lowercased(){
+            if hasText.isEmpty{
+                isFiltered = false
+            }else{
+                isFiltered = true
+//                filteredWordList = wordList.filter({ element in // true 면 들어가고 false 면 제외
+//                    return element.contains(hasText) // 해당 텍스트가 들어있냐. return bool타입
+//                })
+                filteredWordList = wordList.filter({$0.contains(hasText)})
+            }
+            
+            searchResultTableView.reloadData() // 테이블뷰 갱신
+        }
+    }
+    
+    
 }
