@@ -16,6 +16,8 @@
 		D66A4F572745F983002B2611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66A4F552745F983002B2611 /* LaunchScreen.storyboard */; };
 		D66A4F5F2745FBC8002B2611 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A4F5E2745FBC8002B2611 /* SignInViewController.swift */; };
 		D66A4F612745FBE7002B2611 /* SignInVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66A4F602745FBE7002B2611 /* SignInVC.storyboard */; };
+		D66A4F6327460423002B2611 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A4F6227460423002B2611 /* SignUpViewController.swift */; };
+		D66A4F6527460434002B2611 /* SignUpVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66A4F6427460434002B2611 /* SignUpVC.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		D66A4F582745F983002B2611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D66A4F5E2745FBC8002B2611 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D66A4F602745FBE7002B2611 /* SignInVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInVC.storyboard; sourceTree = "<group>"; };
+		D66A4F6227460423002B2611 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D66A4F6427460434002B2611 /* SignUpVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpVC.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +71,8 @@
 				D66A4F4B2745F982002B2611 /* ViewController.swift */,
 				D66A4F4D2745F982002B2611 /* Main.storyboard */,
 				D66A4F5E2745FBC8002B2611 /* SignInViewController.swift */,
+				D66A4F6427460434002B2611 /* SignUpVC.storyboard */,
+				D66A4F6227460423002B2611 /* SignUpViewController.swift */,
 				D66A4F602745FBE7002B2611 /* SignInVC.storyboard */,
 				D66A4F532745F983002B2611 /* Assets.xcassets */,
 				D66A4F552745F983002B2611 /* LaunchScreen.storyboard */,
@@ -134,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66A4F6527460434002B2611 /* SignUpVC.storyboard in Resources */,
 				D66A4F572745F983002B2611 /* LaunchScreen.storyboard in Resources */,
 				D66A4F542745F983002B2611 /* Assets.xcassets in Resources */,
 				D66A4F4F2745F982002B2611 /* Main.storyboard in Resources */,
@@ -148,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D66A4F6327460423002B2611 /* SignUpViewController.swift in Sources */,
 				D66A4F522745F982002B2611 /* Leacture_signin.xcdatamodeld in Sources */,
 				D66A4F4C2745F982002B2611 /* ViewController.swift in Sources */,
 				D66A4F482745F982002B2611 /* AppDelegate.swift in Sources */,
