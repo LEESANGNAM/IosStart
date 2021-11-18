@@ -14,6 +14,8 @@
 		D66A4F522745F982002B2611 /* Leacture_signin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D66A4F502745F982002B2611 /* Leacture_signin.xcdatamodeld */; };
 		D66A4F542745F983002B2611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66A4F532745F983002B2611 /* Assets.xcassets */; };
 		D66A4F572745F983002B2611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66A4F552745F983002B2611 /* LaunchScreen.storyboard */; };
+		D66A4F5F2745FBC8002B2611 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A4F5E2745FBC8002B2611 /* SignInViewController.swift */; };
+		D66A4F612745FBE7002B2611 /* SignInVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66A4F602745FBE7002B2611 /* SignInVC.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		D66A4F532745F983002B2611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D66A4F562745F983002B2611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D66A4F582745F983002B2611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D66A4F5E2745FBC8002B2611 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D66A4F602745FBE7002B2611 /* SignInVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInVC.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				D66A4F492745F982002B2611 /* SceneDelegate.swift */,
 				D66A4F4B2745F982002B2611 /* ViewController.swift */,
 				D66A4F4D2745F982002B2611 /* Main.storyboard */,
+				D66A4F5E2745FBC8002B2611 /* SignInViewController.swift */,
+				D66A4F602745FBE7002B2611 /* SignInVC.storyboard */,
 				D66A4F532745F983002B2611 /* Assets.xcassets */,
 				D66A4F552745F983002B2611 /* LaunchScreen.storyboard */,
 				D66A4F582745F983002B2611 /* Info.plist */,
@@ -131,6 +137,7 @@
 				D66A4F572745F983002B2611 /* LaunchScreen.storyboard in Resources */,
 				D66A4F542745F983002B2611 /* Assets.xcassets in Resources */,
 				D66A4F4F2745F982002B2611 /* Main.storyboard in Resources */,
+				D66A4F612745FBE7002B2611 /* SignInVC.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +151,7 @@
 				D66A4F522745F982002B2611 /* Leacture_signin.xcdatamodeld in Sources */,
 				D66A4F4C2745F982002B2611 /* ViewController.swift in Sources */,
 				D66A4F482745F982002B2611 /* AppDelegate.swift in Sources */,
+				D66A4F5F2745FBC8002B2611 /* SignInViewController.swift in Sources */,
 				D66A4F4A2745F982002B2611 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
