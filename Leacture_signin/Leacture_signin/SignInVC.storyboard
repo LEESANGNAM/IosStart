@@ -52,6 +52,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Sign in">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="24"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="signInAPICall:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="Gkw-hd-NfR"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z3t-y9-6v0">
                                 <rect key="frame" x="54" y="473" width="306.5" height="35"/>
@@ -107,6 +110,8 @@
                     <navigationItem key="navigationItem" id="9vW-Nh-AQI"/>
                     <connections>
                         <outlet property="buttonSignIn" destination="Ee3-DD-SgR" id="w76-L3-KMe"/>
+                        <outlet property="passwordTextField" destination="Yfl-RI-WxI" id="DER-QL-9kS"/>
+                        <outlet property="userNameTextField" destination="CLm-bA-qZl" id="b3w-Uk-Tpr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

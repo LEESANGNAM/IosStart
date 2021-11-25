@@ -9,6 +9,11 @@ import UIKit
 
 class SignInViewController: UIViewController {
 
+    @IBOutlet weak var userNameTextField: UITextField!
+    
+    @IBOutlet weak var passwordTextField: UITextField!
+    let loginURLString = "http://localhost:3000/loginUsers"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // 모서리 라운딩 처리
@@ -22,6 +27,43 @@ class SignInViewController: UIViewController {
         
         self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
+    
+    @IBAction func signInAPICall(_ sender: Any) {
+        //parameters
+        //get post
+        //URLSession
+     
+        
+        let param = [ // 딕셔너리 형태를 바로 보낼 수 없다
+            "userName" : userNameTextField.text ?? "",
+            "password" : passwordTextField.text ?? ""
+            ]
+        
+        //query String key = value&key=value  바꿔야한다.
+        param.queryString
+        
+        //http://localhost:3000/loginUsers
+        
+        //network
+        
+//        let loginURL = URL(string: "http://localhost:3000/loginUsers" + "?" + param.queryString)
+        
+        //URL Componets
+        
+        var urlComponents = URLComponents(string:  loginURLString)
+        urlComponents?.query = param.queryString
+        
+        guard let hasURL = urlComponents?.url else{
+            return
+        }
+        
+        //model
+        URLSession.shared.dataTask(with: hasURL) { data, response, error in
+            
+        }
+        
+    }
+    
     @IBOutlet weak var buttonSignIn: UIButton!
     
     @IBAction func dismissVC(_ sender: Any) {
@@ -36,3 +78,5 @@ class SignInViewController: UIViewController {
     }
     
 }
+
+
