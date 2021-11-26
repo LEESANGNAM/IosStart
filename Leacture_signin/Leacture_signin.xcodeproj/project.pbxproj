@@ -19,6 +19,7 @@
 		D66A4F6327460423002B2611 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A4F6227460423002B2611 /* SignUpViewController.swift */; };
 		D66A4F6527460434002B2611 /* SignUpVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66A4F6427460434002B2611 /* SignUpVC.storyboard */; };
 		D679C017275017BD004A0AB0 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679C016275017BD004A0AB0 /* common.swift */; };
+		D6BCFDE52750F41A000C0941 /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BCFDE42750F41A000C0941 /* LoginUser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D66A4F6227460423002B2611 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D66A4F6427460434002B2611 /* SignUpVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpVC.storyboard; sourceTree = "<group>"; };
 		D679C016275017BD004A0AB0 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
+		D6BCFDE42750F41A000C0941 /* LoginUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,6 @@
 		D66A4F3B2745F982002B2611 = {
 			isa = PBXGroup;
 			children = (
-				D679C016275017BD004A0AB0 /* common.swift */,
 				D66A4F462745F982002B2611 /* Leacture_signin */,
 				D66A4F452745F982002B2611 /* Products */,
 			);
@@ -69,6 +70,7 @@
 		D66A4F462745F982002B2611 /* Leacture_signin */ = {
 			isa = PBXGroup;
 			children = (
+				D679C016275017BD004A0AB0 /* common.swift */,
 				D66A4F472745F982002B2611 /* AppDelegate.swift */,
 				D66A4F492745F982002B2611 /* SceneDelegate.swift */,
 				D66A4F4B2745F982002B2611 /* ViewController.swift */,
@@ -81,6 +83,7 @@
 				D66A4F552745F983002B2611 /* LaunchScreen.storyboard */,
 				D66A4F582745F983002B2611 /* Info.plist */,
 				D66A4F502745F982002B2611 /* Leacture_signin.xcdatamodeld */,
+				D6BCFDE42750F41A000C0941 /* LoginUser.swift */,
 			);
 			path = Leacture_signin;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			files = (
 				D679C017275017BD004A0AB0 /* common.swift in Sources */,
 				D66A4F6327460423002B2611 /* SignUpViewController.swift in Sources */,
+				D6BCFDE52750F41A000C0941 /* LoginUser.swift in Sources */,
 				D66A4F522745F982002B2611 /* Leacture_signin.xcdatamodeld in Sources */,
 				D66A4F4C2745F982002B2611 /* ViewController.swift in Sources */,
 				D66A4F482745F982002B2611 /* AppDelegate.swift in Sources */,
@@ -313,6 +317,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7C6A3W353;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Leacture_signin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -340,6 +345,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7C6A3W353;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Leacture_signin/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

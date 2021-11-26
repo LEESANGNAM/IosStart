@@ -59,8 +59,20 @@ class SignInViewController: UIViewController {
         
         //model
         URLSession.shared.dataTask(with: hasURL) { data, response, error in
+            guard let data = data else{
+                return
+            }
             
-        }
+            let decoder = JSONDecoder()
+            do{
+                let user_ = try decoder.decode(LoginUser.self, from: data)
+                
+            }catch{
+                // error
+                print("error ==> \(error)")
+            }
+            
+        }.resume()
         
     }
     
