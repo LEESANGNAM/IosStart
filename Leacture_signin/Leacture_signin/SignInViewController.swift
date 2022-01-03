@@ -65,7 +65,7 @@ class SignInViewController: UIViewController {
             
             let decoder = JSONDecoder()
             do{
-                let user_ = try decoder.decode(LoginUser.self, from: data)
+                let user = try decoder.decode(LoginUser.self, from: data)
                 // 왜에러나지
             }catch{
                 // error
