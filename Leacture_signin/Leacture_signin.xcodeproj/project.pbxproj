@@ -7,41 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D66A4F482745F982002B2611 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A4F472745F982002B2611 /* AppDelegate.swift */; };
-		D66A4F4A2745F982002B2611 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A4F492745F982002B2611 /* SceneDelegate.swift */; };
-		D66A4F4C2745F982002B2611 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A4F4B2745F982002B2611 /* ViewController.swift */; };
-		D66A4F4F2745F982002B2611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66A4F4D2745F982002B2611 /* Main.storyboard */; };
-		D66A4F522745F982002B2611 /* Leacture_signin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D66A4F502745F982002B2611 /* Leacture_signin.xcdatamodeld */; };
-		D66A4F542745F983002B2611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D66A4F532745F983002B2611 /* Assets.xcassets */; };
-		D66A4F572745F983002B2611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66A4F552745F983002B2611 /* LaunchScreen.storyboard */; };
-		D66A4F5F2745FBC8002B2611 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A4F5E2745FBC8002B2611 /* SignInViewController.swift */; };
-		D66A4F612745FBE7002B2611 /* SignInVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66A4F602745FBE7002B2611 /* SignInVC.storyboard */; };
-		D66A4F6327460423002B2611 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66A4F6227460423002B2611 /* SignUpViewController.swift */; };
-		D66A4F6527460434002B2611 /* SignUpVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D66A4F6427460434002B2611 /* SignUpVC.storyboard */; };
-		D679C017275017BD004A0AB0 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = D679C016275017BD004A0AB0 /* common.swift */; };
-		D6BCFDE52750F41A000C0941 /* LoginUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BCFDE42750F41A000C0941 /* LoginUser.swift */; };
+		D6E29CEB27EA24BC007C7FC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E29CEA27EA24BC007C7FC0 /* AppDelegate.swift */; };
+		D6E29CED27EA24BC007C7FC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E29CEC27EA24BC007C7FC0 /* SceneDelegate.swift */; };
+		D6E29CEF27EA24BC007C7FC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E29CEE27EA24BC007C7FC0 /* ViewController.swift */; };
+		D6E29CF227EA24BC007C7FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E29CF027EA24BC007C7FC0 /* Main.storyboard */; };
+		D6E29CF427EA24BD007C7FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6E29CF327EA24BD007C7FC0 /* Assets.xcassets */; };
+		D6E29CF727EA24BD007C7FC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6E29CF527EA24BD007C7FC0 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D66A4F442745F982002B2611 /* Leacture_signin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leacture_signin.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D66A4F472745F982002B2611 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D66A4F492745F982002B2611 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D66A4F4B2745F982002B2611 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D66A4F4E2745F982002B2611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D66A4F512745F982002B2611 /* Leacture_signin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Leacture_signin.xcdatamodel; sourceTree = "<group>"; };
-		D66A4F532745F983002B2611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D66A4F562745F983002B2611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D66A4F582745F983002B2611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D66A4F5E2745FBC8002B2611 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
-		D66A4F602745FBE7002B2611 /* SignInVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignInVC.storyboard; sourceTree = "<group>"; };
-		D66A4F6227460423002B2611 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		D66A4F6427460434002B2611 /* SignUpVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUpVC.storyboard; sourceTree = "<group>"; };
-		D679C016275017BD004A0AB0 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
-		D6BCFDE42750F41A000C0941 /* LoginUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUser.swift; sourceTree = "<group>"; };
+		D6E29CE727EA24BC007C7FC0 /* Leacture_SignIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leacture_SignIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6E29CEA27EA24BC007C7FC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6E29CEC27EA24BC007C7FC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6E29CEE27EA24BC007C7FC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6E29CF127EA24BC007C7FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6E29CF327EA24BD007C7FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6E29CF627EA24BD007C7FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6E29CF827EA24BD007C7FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D66A4F412745F982002B2611 /* Frameworks */ = {
+		D6E29CE427EA24BC007C7FC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,79 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D66A4F3B2745F982002B2611 = {
+		D6E29CDE27EA24BC007C7FC0 = {
 			isa = PBXGroup;
 			children = (
-				D66A4F462745F982002B2611 /* Leacture_signin */,
-				D66A4F452745F982002B2611 /* Products */,
+				D6E29CE927EA24BC007C7FC0 /* Leacture_SignIn */,
+				D6E29CE827EA24BC007C7FC0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D66A4F452745F982002B2611 /* Products */ = {
+		D6E29CE827EA24BC007C7FC0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D66A4F442745F982002B2611 /* Leacture_signin.app */,
+				D6E29CE727EA24BC007C7FC0 /* Leacture_SignIn.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D66A4F462745F982002B2611 /* Leacture_signin */ = {
+		D6E29CE927EA24BC007C7FC0 /* Leacture_SignIn */ = {
 			isa = PBXGroup;
 			children = (
-				D679C016275017BD004A0AB0 /* common.swift */,
-				D66A4F472745F982002B2611 /* AppDelegate.swift */,
-				D66A4F492745F982002B2611 /* SceneDelegate.swift */,
-				D66A4F4B2745F982002B2611 /* ViewController.swift */,
-				D66A4F4D2745F982002B2611 /* Main.storyboard */,
-				D66A4F5E2745FBC8002B2611 /* SignInViewController.swift */,
-				D66A4F6427460434002B2611 /* SignUpVC.storyboard */,
-				D66A4F6227460423002B2611 /* SignUpViewController.swift */,
-				D66A4F602745FBE7002B2611 /* SignInVC.storyboard */,
-				D66A4F532745F983002B2611 /* Assets.xcassets */,
-				D66A4F552745F983002B2611 /* LaunchScreen.storyboard */,
-				D66A4F582745F983002B2611 /* Info.plist */,
-				D66A4F502745F982002B2611 /* Leacture_signin.xcdatamodeld */,
-				D6BCFDE42750F41A000C0941 /* LoginUser.swift */,
+				D6E29CEA27EA24BC007C7FC0 /* AppDelegate.swift */,
+				D6E29CEC27EA24BC007C7FC0 /* SceneDelegate.swift */,
+				D6E29CEE27EA24BC007C7FC0 /* ViewController.swift */,
+				D6E29CF027EA24BC007C7FC0 /* Main.storyboard */,
+				D6E29CF327EA24BD007C7FC0 /* Assets.xcassets */,
+				D6E29CF527EA24BD007C7FC0 /* LaunchScreen.storyboard */,
+				D6E29CF827EA24BD007C7FC0 /* Info.plist */,
 			);
-			path = Leacture_signin;
+			path = Leacture_SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D66A4F432745F982002B2611 /* Leacture_signin */ = {
+		D6E29CE627EA24BC007C7FC0 /* Leacture_SignIn */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D66A4F5B2745F983002B2611 /* Build configuration list for PBXNativeTarget "Leacture_signin" */;
+			buildConfigurationList = D6E29CFB27EA24BD007C7FC0 /* Build configuration list for PBXNativeTarget "Leacture_SignIn" */;
 			buildPhases = (
-				D66A4F402745F982002B2611 /* Sources */,
-				D66A4F412745F982002B2611 /* Frameworks */,
-				D66A4F422745F982002B2611 /* Resources */,
+				D6E29CE327EA24BC007C7FC0 /* Sources */,
+				D6E29CE427EA24BC007C7FC0 /* Frameworks */,
+				D6E29CE527EA24BC007C7FC0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Leacture_signin;
-			productName = Leacture_signin;
-			productReference = D66A4F442745F982002B2611 /* Leacture_signin.app */;
+			name = Leacture_SignIn;
+			productName = Leacture_SignIn;
+			productReference = D6E29CE727EA24BC007C7FC0 /* Leacture_SignIn.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D66A4F3C2745F982002B2611 /* Project object */ = {
+		D6E29CDF27EA24BC007C7FC0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					D66A4F432745F982002B2611 = {
-						CreatedOnToolsVersion = 13.0;
+					D6E29CE627EA24BC007C7FC0 = {
+						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = D66A4F3F2745F982002B2611 /* Build configuration list for PBXProject "Leacture_signin" */;
+			buildConfigurationList = D6E29CE227EA24BC007C7FC0 /* Build configuration list for PBXProject "Leacture_SignIn" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -131,62 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = D66A4F3B2745F982002B2611;
-			productRefGroup = D66A4F452745F982002B2611 /* Products */;
+			mainGroup = D6E29CDE27EA24BC007C7FC0;
+			productRefGroup = D6E29CE827EA24BC007C7FC0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D66A4F432745F982002B2611 /* Leacture_signin */,
+				D6E29CE627EA24BC007C7FC0 /* Leacture_SignIn */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D66A4F422745F982002B2611 /* Resources */ = {
+		D6E29CE527EA24BC007C7FC0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D66A4F6527460434002B2611 /* SignUpVC.storyboard in Resources */,
-				D66A4F572745F983002B2611 /* LaunchScreen.storyboard in Resources */,
-				D66A4F542745F983002B2611 /* Assets.xcassets in Resources */,
-				D66A4F4F2745F982002B2611 /* Main.storyboard in Resources */,
-				D66A4F612745FBE7002B2611 /* SignInVC.storyboard in Resources */,
+				D6E29CF727EA24BD007C7FC0 /* LaunchScreen.storyboard in Resources */,
+				D6E29CF427EA24BD007C7FC0 /* Assets.xcassets in Resources */,
+				D6E29CF227EA24BC007C7FC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D66A4F402745F982002B2611 /* Sources */ = {
+		D6E29CE327EA24BC007C7FC0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D679C017275017BD004A0AB0 /* common.swift in Sources */,
-				D66A4F6327460423002B2611 /* SignUpViewController.swift in Sources */,
-				D6BCFDE52750F41A000C0941 /* LoginUser.swift in Sources */,
-				D66A4F522745F982002B2611 /* Leacture_signin.xcdatamodeld in Sources */,
-				D66A4F4C2745F982002B2611 /* ViewController.swift in Sources */,
-				D66A4F482745F982002B2611 /* AppDelegate.swift in Sources */,
-				D66A4F5F2745FBC8002B2611 /* SignInViewController.swift in Sources */,
-				D66A4F4A2745F982002B2611 /* SceneDelegate.swift in Sources */,
+				D6E29CEF27EA24BC007C7FC0 /* ViewController.swift in Sources */,
+				D6E29CEB27EA24BC007C7FC0 /* AppDelegate.swift in Sources */,
+				D6E29CED27EA24BC007C7FC0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D66A4F4D2745F982002B2611 /* Main.storyboard */ = {
+		D6E29CF027EA24BC007C7FC0 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D66A4F4E2745F982002B2611 /* Base */,
+				D6E29CF127EA24BC007C7FC0 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D66A4F552745F983002B2611 /* LaunchScreen.storyboard */ = {
+		D6E29CF527EA24BD007C7FC0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D66A4F562745F983002B2611 /* Base */,
+				D6E29CF627EA24BD007C7FC0 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -194,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D66A4F592745F983002B2611 /* Debug */ = {
+		D6E29CF927EA24BD007C7FC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -245,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -255,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		D66A4F5A2745F983002B2611 /* Release */ = {
+		D6E29CFA27EA24BD007C7FC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -300,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -310,7 +282,7 @@
 			};
 			name = Release;
 		};
-		D66A4F5C2745F983002B2611 /* Debug */ = {
+		D6E29CFC27EA24BD007C7FC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,7 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y7C6A3W353;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Leacture_signin/Info.plist;
+				INFOPLIST_FILE = Leacture_SignIn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sangnam.Leacture-signin";
+				PRODUCT_BUNDLE_IDENTIFIER = "sangnam.Leacture-SignIn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		D66A4F5D2745F983002B2611 /* Release */ = {
+		D6E29CFD27EA24BD007C7FC0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -347,7 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y7C6A3W353;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Leacture_signin/Info.plist;
+				INFOPLIST_FILE = Leacture_SignIn/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.sangnam.Leacture-signin";
+				PRODUCT_BUNDLE_IDENTIFIER = "sangnam.Leacture-SignIn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -369,38 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D66A4F3F2745F982002B2611 /* Build configuration list for PBXProject "Leacture_signin" */ = {
+		D6E29CE227EA24BC007C7FC0 /* Build configuration list for PBXProject "Leacture_SignIn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D66A4F592745F983002B2611 /* Debug */,
-				D66A4F5A2745F983002B2611 /* Release */,
+				D6E29CF927EA24BD007C7FC0 /* Debug */,
+				D6E29CFA27EA24BD007C7FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D66A4F5B2745F983002B2611 /* Build configuration list for PBXNativeTarget "Leacture_signin" */ = {
+		D6E29CFB27EA24BD007C7FC0 /* Build configuration list for PBXNativeTarget "Leacture_SignIn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D66A4F5C2745F983002B2611 /* Debug */,
-				D66A4F5D2745F983002B2611 /* Release */,
+				D6E29CFC27EA24BD007C7FC0 /* Debug */,
+				D6E29CFD27EA24BD007C7FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		D66A4F502745F982002B2611 /* Leacture_signin.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				D66A4F512745F982002B2611 /* Leacture_signin.xcdatamodel */,
-			);
-			currentVersion = D66A4F512745F982002B2611 /* Leacture_signin.xcdatamodel */;
-			path = Leacture_signin.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = D66A4F3C2745F982002B2611 /* Project object */;
+	rootObject = D6E29CDF27EA24BC007C7FC0 /* Project object */;
 }

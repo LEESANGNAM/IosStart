@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  Leacture_signin
+//  Leacture_SignIn
 //
-//  Created by 이상남 on 2021/11/18.
+//  Created by 이상남 on 2022/03/23.
 //
 
 import UIKit
@@ -14,11 +14,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func moveToSignIn(_ sender: Any) {
-        let signInVC = UIStoryboard(name: "SignInVC", bundle: nil).instantiateViewController(withIdentifier: "naviSignIn") // 스토리보드 아이디 지정
-        
-        self.present(signInVC, animated: true, completion: nil)
-    }
-    
+
 }
 
